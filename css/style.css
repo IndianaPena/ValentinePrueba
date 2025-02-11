@@ -208,6 +208,33 @@ p {
 footer {
 	color: var(--letra-footer);
 	background-color: var(--fondo-footer);
-	padding: 40px 20px;
+	padding-top: 80px;
+	padding-bottom: 60px;
 }
 
+footer p{
+	color: var(--letra-footer);
+	font-family: Rubik, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+footer h3{
+	color: var(--letra-footer);
+	font-family: Rubik, sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+footer a{
+	color: var(--letra-footer);
+}
+
+footer img{
+	width: 160px;
+	padding-bottom: 30px;
+}
+
+footer h3{
+	
+}
