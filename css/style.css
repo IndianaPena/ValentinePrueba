@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+	--color-general: #333;
+	--color-titulos: #333;
+	--fondo-gris:#f3f3f3;
+	--color-rojo:#af221d;
+	--fondo-footer:#333;
+	--letra-footer:#fff;
+}
+
+/*--------------------------------------------------------------
+# Body/Generales
+--------------------------------------------------------------*/
+.section {
+	padding: 80px 40px;
+}
+.letraroja{
+	font-family: Rubik, sans-serif;
+	color: var(--color-rojo);
+	font-size: 12px;
+	font-weight: 200px;
+}
+
+.letramediana{
+	font-family: Rubik, sans-serif;
+	color: var(--color-titulos);
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.subtitulo{
+	font-family: Rubik, sans-serif;
+	color: var(--color-titulos);
+	font-size: 15px;
+	font-weight: 200;
+	margin-bottom: 40px;
+}
+
+.features{
+	font-family: Rubik, sans-serif;
+	color: var(--color-titulos);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+p {
+	font-family: Rubik, sans-serif;
+	color: var(--color-titulos);
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.redbtn {
+	background-color: var(--color-rojo);
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 0px;
+	padding: 10px 25px;
+	border-color: var(--color-rojo);
+	margin-top: 40px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.hero-section {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/bg-valentines.jpg");
+  background-size: cover;
+  padding: 70px;
+  height: 500px;
+}
+
+.herofont {
+	font-family: Poppins, sans/serif;
+	color: white;
+}
+
+.herotitle {
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.herosubtitle {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Guarantee
+--------------------------------------------------------------*/
+#guarantee i{
+	color: var(--color-rojo);
+	font-size: 30px;
+}
+
+#guarantee p{
+	padding-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Balance
+--------------------------------------------------------------*/
+#balance p{
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+#balance .img{
+	width: 200px 200px;
+}
+
+#balance .letramediana, .subtitulo{
+	padding-left: 40px;
+}
+
+#balance h3{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#balance h4{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about p{
+	font-family: Rubik, sans-serif;
+	color: var(--color-titulos);
+	font-size: 12px;
+	font-weight: 500;
+}
+
+#about .letramediana{
+	padding-bottom: 10px;
+}
+
+#about img{
+	padding-left: 40px;
+}
+
+#about .redbtn {
+	background-color: var(--color-rojo);
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 0px;
+	padding: 10px 60px;
+	border-color: var(--color-rojo);
+	margin-top: 40px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Guidance
+--------------------------------------------------------------*/
+#guidance .letraroja, .letramediana, .subtitulo{
+	text-align: center;
+}
+
+#guidance .subtitulo{
+	font-weight: 500;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
